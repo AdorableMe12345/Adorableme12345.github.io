@@ -22,14 +22,14 @@ function hitLikes2() {
 } 
 btnLike2.addEventListener("click",hitLikes2)
 
-function DisLikes1() {
-  let totalDisLikes1 = parseInt(countDisLikes1.value) + 1
-   countDisLikes1.textContent = totalDisLikes1.toString()
+function Dislikes1() {
+  let totalDislikes1 = parseInt(countDislikes1.value) + 1
+   countDislikes1.textContent = totalDislikes1.toString()
 }
-btnDisLike1.addEventListener("click",DisLikes1)
+btnDislike1.addEventListener("click",Dislikes1)
 
-function DisLikes2() {
-  let totalDisLikes2 = parseInt(countedDisLikes2.value) + 1
-   countDisLikes2.textContent = totalDisLikes2.toString()
+function Dislikes2() {
+  let totalDislikes2 = parseInt(countedDislikes2.value) + 1
+   countDislikes2.textContent = totalDislikes2.toString()
 }
-btnDisLike2.addEventListener("click",DisLikes2)
+btnDislike2.addEventListener("click",Dislikes2)
