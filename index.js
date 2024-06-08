@@ -22,24 +22,12 @@ function Dislikes1() {
 }
 btnDislikes1.textContent = totalDislikes1.toString()
 
-const comment = document.getElementById("comment")
-
-const submit = document.getElementById("submit")
-
-const commentbox = document.getElementById("commentbox")
-
-function submitComment(){
-
-commentbox.textContent += comment.value.toString() + "\n"
-}
-submit.addEventListener("click", submitComment)
-
 function hitLikes2() {
    let totalLikes2 = parseInt(countLikes1.value) + 1
    countLikes2.textContent = totalLikes2.toString() 
 } 
 btnLike2.addEventListener("click",hitLikes2)
-
+   
 function Dislikes2() {
   let totalDislikes2 = parseInt(countDislikes2.value) + 1
    countDislikes2.textContent = totalDislikes2.toString()
