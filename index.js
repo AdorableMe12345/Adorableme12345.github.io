@@ -22,9 +22,9 @@ function Dislikes1() {
 }
 btnDislikes1.textContent = totalDislikes1.toString()
 
-const submit = document.getElementById("submit")
-
 const comment = document.getElementById("comment")
+
+const submit = document.getElementById("submit")
 
 const commentbox = document.getElementById("commentbox")
 
@@ -46,9 +46,9 @@ function Dislikes2() {
 }
 btnDislike2.addEventListener("click",Dislikes2)
 
-const submit = document.getElementById("submit")
-
 const comment = document.getElementById("comment")
+
+const submit = document.getElementById("submit")
 
 const commentbox = document.getElementById("commentbox")
 
