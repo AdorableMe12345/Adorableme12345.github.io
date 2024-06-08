@@ -39,21 +39,10 @@ const comment = document.getElementById("comment")
 
 const commentbox = document.getElementById("commentbox")
 
-function submitComment1(){
+function submitComment(){
 
-commentbox.textContent += comment1.value.toString() + "\n"
+commentbox.textContent += comment.value.toString() + "\n"
 }
 submit.addEventListener("click", submitComment)
 
 
-const submit = document.getElementById("submit")
-
-const comment = document.getElementById("comment")
-
-const commentbox = document.getElementById("commentbox")
-
-function submitComment2(){
-
-commentbox.textContent += comment2.value.toString() + "\n"
-}
-submit.addEventListener("click", submitComment)
